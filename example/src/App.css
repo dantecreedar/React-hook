@@ -1,0 +1,31 @@
+
+ul{
+  display: flex;
+  list-style: none;
+  justify-content: end;
+  background-color: orange;
+  color: white;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0,5);
+}
+
+li{
+  padding: 20px;
+  cursor: pointer;
+}
+
+footer{
+  position: fixed;
+  background-color: black;
+  color: white;
+  bottom: 0;
+  padding: 20px;
+  width: 100vw;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: auto;
+}

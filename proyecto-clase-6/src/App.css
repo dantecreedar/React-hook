@@ -1,0 +1,41 @@
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: end;
+}
+
+.p{
+  padding: 20px;
+}
+
+.bg-black{
+  background: #000;
+}
+.bg-gray{
+  background: #ddd;
+}
+.t-white{
+  color: white;
+}
+.bg-orange{
+  background: orange;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+footer{
+  bottom: 0;
+  position: fixed;
+  padding: 20px;
+  width: 100vw;
+
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}

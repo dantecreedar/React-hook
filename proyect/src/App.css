@@ -1,0 +1,45 @@
+*{
+  background: #000;
+  color: white;
+}
+
+ul{
+  display: flex;
+  padding: 1px;
+  justify-content: end;
+  list-style: none;
+  background: rgb(243, 94, 94);
+}
+
+li{
+  padding: 20px;
+  cursor: pointer;
+}
+
+li:hover{
+  background-color: white;
+  color: black;
+  cursor: pointer;
+
+}
+
+main{
+  height: 80vh;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer{
+  position: fixed;
+  background: black;
+  color: white;
+  bottom: 0;
+  padding: 20px;
+  width: 100vw;
+}
+h1{
+  padding: 10px;
+}
