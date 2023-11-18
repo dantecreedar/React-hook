@@ -1,0 +1,28 @@
+ul{
+  display: flex;
+  justify-content: end;
+  border: 1px solid black;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.098);
+}
+
+li{
+  padding: 20px;
+  font-size: 20px;
+}
+
+footer{
+  position: fixed;
+  padding: 20px;
+  background-color: black;
+  color: aliceblue;
+  width: 100vw;
+  bottom: 0;
+}
+
+main{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
